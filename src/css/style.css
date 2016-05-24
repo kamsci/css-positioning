@@ -9,3 +9,9 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+.phones-img {
+  float: left;
+  width: 35%;
+  padding: 20px 50px 20px 70px;
+}
