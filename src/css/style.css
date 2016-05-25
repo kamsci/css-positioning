@@ -10,8 +10,62 @@ body {
   margin: 0;
 }
 
+h3 {
+  color: #06365f;
+}
+
+
+
 .phones-img {
   float: left;
   width: 35%;
   padding: 20px 50px 20px 70px;
 }
+
+.brand-img {
+  width: 250px;
+}
+
+.frame {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+
+}
+
+.buttons li {
+  display: inline;
+  list-style-type: none;
+
+}
+
+ button.store-buttons {
+  padding: 0px;
+  border: none;
+  background: #fff;
+
+  }
+
+.store-buttons img {
+  width: 100px;
+}
+
+footer {
+  width: 100%;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+footer li {
+  display: inline;
+  padding: 0 10px;
+  color: #1c5380;
+}
+
+footer li:nth-child(9) {
+  color: gray
+}
+
